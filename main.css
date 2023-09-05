@@ -26,9 +26,7 @@ ul{
     align-items: center;
     justify-content: space-around;
 }
-.price_container{
-    display: flex;
-}
+
 .header_list{
     display: flex;
     align-items: center;
@@ -46,4 +44,71 @@ ul{
     border-radius: 50%;
     padding: 10px 10px;
     margin-left: 42px;
+}
+
+.hero_container{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+.hero_wrap{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.title{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+.title1{
+    width: 517px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 99.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.title2{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.title3{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: strikethrough;
+}
+.btn{
+    width: 2px;
+    height: 57px;
+    background: #FFF;
+}
+.btn1{
+    color: #FF4948;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 62px;
+    background: #FFF;
 }
