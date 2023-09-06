@@ -1,37 +1,43 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     min-width: 1140px;
     width: 100%;
     padding: 0 16px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     padding-top: 36px;
     background-image: url(./images/bacg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header_container{
+
+.header_container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.header_list{
+.header_list {
     display: flex;
     align-items: center;
 }
-.header_btn{
+
+.header_btn {
     width: 2px;
     height: 47px;
     opacity: 0.5;
@@ -39,25 +45,28 @@ ul{
     display: block;
     margin: 10px;
 }
-.header_item{
-    background-color: #fff; 
+
+.header_item {
+    background-color: #fff;
     border-radius: 50%;
     padding: 10px 10px;
     margin-left: 42px;
 }
 
-.hero_container{
+.hero_container {
     display: flex;
     align-items: center;
     gap: 95px;
 }
-.hero_wrap{
+
+.hero_wrap {
     display: flex;
     gap: 30px;
     align-items: center;
     margin-bottom: 35px;
 }
-.title{
+
+.title {
     color: #FFF;
     font-family: Rubik;
     font-size: 22px;
@@ -67,7 +76,8 @@ ul{
     letter-spacing: 2.2px;
     text-transform: uppercase;
 }
-.title1{
+
+.title1 {
     width: 517px;
     color: #FFF;
     font-family: Rubik;
@@ -78,7 +88,8 @@ ul{
     text-transform: uppercase;
     margin-bottom: 45px;
 }
-.title2{
+
+.title2 {
     color: #FFF;
     font-family: Rubik;
     font-size: 44px;
@@ -86,7 +97,8 @@ ul{
     font-weight: 700;
     line-height: 130%;
 }
-.title3{
+
+.title3 {
     color: #FFF;
     font-family: Rubik;
     font-size: 31px;
@@ -95,12 +107,14 @@ ul{
     line-height: 140%;
     text-decoration-line: strikethrough;
 }
-.btn{
+
+.btn {
     width: 2px;
     height: 57px;
     background: #FFF;
 }
-.btn1{
+
+.btn1 {
     color: #FF4948;
     font-family: Rubik;
     font-size: 22px;
@@ -113,15 +127,17 @@ ul{
     background: #FFF;
 }
 
-.intro{
+.intro {
     padding-top: 130px;
 }
-.intro_block{
+
+.intro_block {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.intro_title{
+
+.intro_title {
     width: 508px;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -134,14 +150,16 @@ ul{
     line-height: 130%;
 }
 
-.wrapper{
+.wrapper {
     padding-top: 130px;
 }
-.wrapper_container{
+
+.wrapper_container {
     display: flex;
     gap: 340px;
 }
-.wrapper_title{
+
+.wrapper_title {
     width: 380px;
     color: #180202;
     font-family: Rubik;
@@ -150,33 +168,38 @@ ul{
     font-weight: 700;
     line-height: 130%;
 }
-.wrapper_block{
+
+.wrapper_block {
     background-image: url(./images/wrap.svg);
     background-repeat: no-repeat;
     background-position: left;
     padding: 60px;
 }
-.wrapper_block1{
+
+.wrapper_block1 {
     background-image: url(./images/wrap1.svg);
     background-repeat: no-repeat;
     background-position: left;
     padding: 60px;
 }
-.wrapper_block2{
+
+.wrapper_block2 {
     background-image: url(./images/wrap2.svg);
     background-repeat: no-repeat;
     background-position: left;
     padding: 60px;
 }
-.wrapper-title{
-    color: #180202;     
+
+.wrapper-title {
+    color: #180202;
     font-family: Rubik;
     font-size: 31px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
 }
-.wrapper_text{
+
+.wrapper_text {
     color: #180202;
     font-family: Rubik;
     font-size: 16px;
@@ -184,7 +207,8 @@ ul{
     font-weight: 400;
     line-height: 150%;
 }
-.wrapper_title1{
+
+.wrapper_title1 {
     color: #FF4948;
     font-family: Rubik;
     font-size: 16px;
@@ -192,11 +216,13 @@ ul{
     font-weight: 500;
     line-height: 150%;
 }
-.tony{
+
+.tony {
     padding-top: 130px;
     padding-bottom: 130px;
 }
-.tony_title{
+
+.tony_title {
     color: #180202;
     text-align: center;
     font-family: Rubik;
@@ -205,7 +231,8 @@ ul{
     font-weight: 700;
     line-height: 130%;
 }
-.tony_text{
+
+.tony_text {
     width: 517px;
     color: #180202;
     text-align: center;
@@ -217,46 +244,54 @@ ul{
     font-weight: 400;
     line-height: 150%;
 }
-.tony_block{
+
+.tony_block {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.tony_img{
+
+.tony_img {
     margin-top: -50px;
 }
-.tony_card{
+
+.tony_card {
     border-radius: 30px;
     background: #FFE5EE;
 }
-.tony_card1{
+
+.tony_card1 {
     border-radius: 30px;
     background: #E5F1FF;
 }
-.tony_card2{
+
+.tony_card2 {
     border-radius: 30px;
     background: #E5FFFB;
 }
-.tony_wrap{
+
+.tony_wrap {
     display: flex;
     align-items: center;
     gap: 50px;
     margin-top: 25px;
 }
-.tony_brat{
+
+.tony_brat {
     display: flex;
     gap: 110px;
     margin-top: 20px;
 }
-.select{
 
-}
-.select_container{
+.select {}
+
+.select_container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.select_title{
+
+.select_title {
     width: 390px;
     color: #000;
     font-family: Rubik;
@@ -265,7 +300,8 @@ ul{
     font-weight: 700;
     line-height: 130%;
 }
-.select_text{
+
+.select_text {
     background-image: url(./images/select1.svg);
     background-repeat: no-repeat;
     background-position: left;
@@ -279,7 +315,8 @@ ul{
     font-weight: 400;
     line-height: 140%;
 }
-.terminal{
+
+.terminal {
     padding-top: 130px;
     padding-bottom: 130px;
     background-image: url(./images/terminal.png);
@@ -288,14 +325,15 @@ ul{
     background-size: cover;
 }
 
-.terminal_container{
+.terminal_container {
     width: 712px;
     height: 292px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF4F4;
 }
-.terminal_title{
+
+.terminal_title {
     color: #180202;
     text-align: center;
     font-family: Rubik;
@@ -304,7 +342,8 @@ ul{
     font-weight: 700;
     line-height: 130%;
 }
-.terminal_text{
+
+.terminal_text {
     color: #180202;
     text-align: center;
     font-family: Rubik;
@@ -313,11 +352,13 @@ ul{
     font-weight: 400;
     line-height: 150%;
 }
-.terminal_card{
+
+.terminal_card {
     padding-top: 80px;
     padding-left: 40%;
 }
-.terminal_btn{
+
+.terminal_btn {
     color: #180202;
     text-align: center;
     font-family: Rubik;
@@ -330,7 +371,8 @@ ul{
     font-weight: 400;
     line-height: 150%;
 }
-.btn{
+
+.btn {
     color: #FFF;
     font-family: Rubik;
     font-size: 22px;
@@ -341,4 +383,36 @@ ul{
     border-radius: 50px;
     background: #FF4948;
     border: none;
+}
+
+.about {
+    padding-top: 130px;
+    background: #E86564;
+}
+
+.about_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_list {
+    display: flex;
+    align-items: center;
+}
+
+.about_item {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-left: 34px;
+}
+
+.about_block {
+    background-color: #E5F1FF;
+    padding: 15px 16px;
+    border-radius: 50%;
 }
