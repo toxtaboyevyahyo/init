@@ -245,3 +245,34 @@ ul{
     gap: 110px;
     margin-top: 20px;
 }
+.select{
+
+}
+.select_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.select_title{
+    width: 390px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.select_text{
+    background-image: url(./images/select1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 15px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    padding: 25px;
+    border-top: 1px solid #000000;
+    font-weight: 400;
+    line-height: 140%;
+}
