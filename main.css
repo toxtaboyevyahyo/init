@@ -139,8 +139,7 @@ ul{
 }
 .wrapper_container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 340px;
 }
 .wrapper_title{
     width: 380px;
@@ -192,4 +191,57 @@ ul{
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+}
+.tony{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.tony_title{
+    color: #180202;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.tony_text{
+    width: 517px;
+    color: #180202;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.tony_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tony_card{
+    border-radius: 30px;
+    background: #FFE5EE;
+}
+.tony_card1{
+    border-radius: 30px;
+    background: #E5F1FF;
+}
+.tony_card2{
+    border-radius: 30px;
+    background: #E5FFFB;
+}
+.tony_wrap{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+.tony_brat{
+    display: flex;
+    gap: 110px;
+    margin-top: 20px;
 }
