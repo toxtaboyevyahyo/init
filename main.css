@@ -222,6 +222,9 @@ ul{
     align-items: center;
     justify-content: space-around;
 }
+.tony_img{
+    margin-top: -50px;
+}
 .tony_card{
     border-radius: 30px;
     background: #FFE5EE;
@@ -275,4 +278,67 @@ ul{
     border-top: 1px solid #000000;
     font-weight: 400;
     line-height: 140%;
+}
+.terminal{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-image: url(./images/terminal.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terminal_container{
+    width: 712px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF4F4;
+}
+.terminal_title{
+    color: #180202;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.terminal_text{
+    color: #180202;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.terminal_card{
+    padding-top: 80px;
+    padding-left: 40%;
+}
+.terminal_btn{
+    color: #180202;
+    text-align: center;
+    font-family: Rubik;
+    padding: 15px 30px;
+    border-radius: 73px;
+    background: #FFF;
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    padding: 0 120px;
+    font-weight: 500;
+    line-height: 140%;
+    border-radius: 50px;
+    background: #FF4948;
+    border: none;
 }
